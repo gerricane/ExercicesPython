@@ -19,12 +19,8 @@ def poser_question():
         calcul = a*b
     if reponse_int == calcul:
         return True
-
     return False
 
-
-
-#poser_question()
 
 nb_points = 0
 for i in range(0,NB_QUESTION):
@@ -36,6 +32,7 @@ for i in range(0,NB_QUESTION):
     else:
         print("Réponse incorrect")
     print()
+
 
 print(f"Votre note: {nb_points} sur {NB_QUESTION}")
 moyenne = int(NB_QUESTION/2)
