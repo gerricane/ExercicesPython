@@ -1,5 +1,5 @@
 # Exercice 1 de la section 9: Epreuve de code
-#Par Sebastien Terriere
+#Par Sebastien
 
 
 NB_POUCES = 2.54
