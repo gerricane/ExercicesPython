@@ -8,7 +8,7 @@ def conv_en_cm(nb_pouces):
     return 0
 
 def conv_en_pouces(nb_cm):
-    print(nb_pouces)
+    print(nb_cm)
     return 0
 
 
