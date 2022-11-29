@@ -40,4 +40,4 @@ elif menu_int == 2 :
             nb_en_cm_floa = float(nb_en_cm_str)
         except:
             print("J'attend un nombre")
-    conv_en_pouces(nb_en_cm_floa5)
+    conv_en_pouces(nb_en_cm_floa)
