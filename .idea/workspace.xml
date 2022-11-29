@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="200726d2-c124-405a-a6fc-3e48027a45b7" name="Changes" comment="Update main.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Udemy/Section 9/Exercice 1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy/Section 9/Exercice 1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

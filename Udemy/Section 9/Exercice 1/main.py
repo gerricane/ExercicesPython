@@ -4,7 +4,8 @@
 # Variable
 
 def conv_en_cm(nb_pouces):
-    print(nb_pouces)
+    resultat = nb_pouces * 2.54
+    print(f"{nb_pouces} pouces donne {resultat} en cm")
     return 0
 
 def conv_en_pouces(nb_cm):
