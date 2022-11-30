@@ -20,9 +20,9 @@ choix_str = ""
 print("a) Oeuf a la coque: 3 min")
 print("b) Oeuf mollets: 6 min")
 print("c) Oeuf dur: 9 min")
-print("0 pour sortir")
-while choix_str not in ["a","b", "c", "d", "0"]:
-    choix_str = input("Quelle cuissson les oeufs ? ")
+print("q pour sortir")
+while choix_str not in ["a","b", "c", "d", "q"]:
+    choix_str = input("Quelle cuisson les oeufs ? ")
 if choix_str == "a":
     cuisson(180)
 elif choix_str == "b":
