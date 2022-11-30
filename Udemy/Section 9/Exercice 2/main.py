@@ -5,7 +5,7 @@ import time
 
 
 #d_coque = 30
-def coque (d_coque):
+def cuisson (d_coque):
     while not d_coque == 0:
         min = d_coque // 60
         sec = d_coque - min * 60
@@ -27,4 +27,9 @@ print("c) Oeuf dur: 9 min")
 print("0 pour sortir")
 while choix_str not in ["a","b", "c", "d", "0"]:
     choix_str = input("Quelle cuissson les oeufs ? ")
-
+if choix_str == "a":
+    cuisson(180)
+elif choix_str == "b":
+    cuisson(360)
+elif choix_str == "c":
+    cuisson(540)
