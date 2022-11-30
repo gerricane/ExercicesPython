@@ -1,10 +1,6 @@
 import time
-# for i in range (25):
-#     time.sleep(1)
-#     print(".", end="", flush=True)
 
 
-#d_coque = 30
 def cuisson (d_coque):
     while not d_coque == 0:
         min = d_coque // 60
@@ -19,8 +15,8 @@ def cuisson (d_coque):
         print()
     print("Cuisson terminée")
 
+    
 choix_str = ""
-
 print("a) Oeuf a la coque: 3 min")
 print("b) Oeuf mollets: 6 min")
 print("c) Oeuf dur: 9 min")
