@@ -13,21 +13,25 @@ def clear_screen():
     else:
         os.system('cls')
 
-s = ""
-compteur = 0
-for i in range(4):
-    n = random.randint(0,9)
-    s += str(n)
+def compteur(nb):
+    s = ""
+    compteur = 0
+    for i in range(nb):
+        n = random.randint(0,9)
+        s += str(n)
+    return s
 
-print(s)
-time.sleep(5)
-clear_screen()
-
-reponse = str(input("Votre réponse: "))
-if reponse == s:
+nombres = 4
+compteur_points = 0
+resultat = compteur(nombres)
+print(resultat)
+reponse = input("Votre réponse: ")
+if reponse == resultat:
     print("Bonne réponse")
-    compteur += 1
-    print(f"Vous avez {compteur} points")
+    compteur_points += 1
+    nombres += 1
+    resultat = compteur(nombres)
+    print(nombres)
 else:
-    print(f"Le nombre etait: {s}")
+    print("perdu")
 
