@@ -1,10 +1,10 @@
-def afficher(collection):
+def afficher(collection, ecart = 1):
     nb_pizzas = len(collection)
     if nb_pizzas == 0:
         print("---- Aucune Pizza ---")
     else:
         print(f" ---- LISTE DES PIZZAS ({nb_pizzas}) ----")
-        for i in collection:
+        for i in collection[:ecart]:
             print(i)
         print()
         print(f"Premiere pizza: {collection[0]}")
@@ -26,6 +26,7 @@ def ajouter_pizza_utilisateur(collection):
 
 
 pizza = ["4 fromages", "vegetarienne", "hawai", "calzone"]
+vide = ()
 ajouter_pizza_utilisateur(pizza)
-afficher(pizza)
+afficher(vide)
 

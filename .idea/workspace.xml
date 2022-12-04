@@ -149,9 +149,10 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Gerricane\anaconda3\envs\Cacl\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (Cacl)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Udemy/Section 16" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Udemy/Section 16/main.py" />
@@ -324,6 +325,11 @@
           <url>file://$PROJECT_DIR$/Udemy/Section 15/main.py</url>
           <line>3</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Udemy/Section 16/main.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
