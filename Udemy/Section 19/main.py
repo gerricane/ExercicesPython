@@ -9,10 +9,11 @@ def poser_question(question):
     # print("  ", choix[2])
     # print("  ", choix[3])
     for i in range(len(choix)):
-        print("  ", choix[i])
+        print(i+1,"-" , choix[i])
     print()
-    reponse = input("Votre réponse : ")
-    if reponse.lower() == bonne_reponse.lower():
+    reponse_str = input(f"Votre réponse (entre 1 et {i+1})")
+    reponse_int= int(reponse_str)
+    if choix[reponse_int-1] == bonne_reponse:
         print("Bonne réponse")
         score += 1
     else:
