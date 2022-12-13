@@ -28,5 +28,5 @@ def ajouter_pizza_utilisateur(collection):
 pizza = ["4 fromages", "vegetarienne", "hawai", "calzone"]
 vide = ()
 ajouter_pizza_utilisateur(pizza)
-afficher(vide)
+afficher(pizza)
 
